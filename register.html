@@ -10,28 +10,36 @@
 
         <div>
             <center>
-                    <form method="POST">
+                    <form method="POST" class="was-validated">
                         <fieldset>
                             <legend>Personal Information</legend>
-                                <div class="form-group">
-                                        <label for="firstname"></label>
-                                        <input type="text" class="form-control" id="input" name"firstname" placeholder="James">
+                                    <div class="form-group">
+                                            <label for="firstname"></label>
+                                            <input type="text" class="form-control" id="input" name"firstname" placeholder="James" required>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
                                     </div>
                                     <div class="form-group">
                                             <label for="lastname"></label> </label>
-                                            <input type="text" class="form-control" id="input" name"lastname" placeholder="Joseph">
+                                            <input type="text" class="form-control" id="input" name"lastname" placeholder="Joseph" required>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
                                     </div>
                                     <div class="form-group">
                                             <label for="emeil"> </label>
-                                            <input type="email" class="form-control" id="input" name"email" placeholder="james.joseph@gmail.com">
+                                            <input type="email" class="form-control" id="input" name"email" placeholder="james.joseph@gmail.com" required>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
                                     </div>
                                     <div class="form-group">
                                             <label for="phoneno"> </label>
-                                            <input type="text" class="form-control" id="input" name"phoneno" placeholder="+2348032454323">
+                                            <input type="text" class="form-control" id="input" name"phoneno" placeholder="+2348032454323" required>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
                                     </div>
                                     <div class="form-group">
                                             <label for="dob"> </label>
-                                            <input type="date" class="form-control" id="input" name"dob">
+                                            <input type="date" class="form-control" id="input" name"dob" required>
                                      </div>
                                      <div class="form-group">
                                             <label for="school"></label>
