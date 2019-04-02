@@ -10,32 +10,46 @@
 
         <div>
             <center>
-                    <form>
-                            <div class="form-group">
-                                <label for="firstname"></label>
-                                <input type="text" class="form-control" id="input" name"firstname" placeholder="James">
-                            </div>
-                            <div class="form-group">
-                                    <label for="lastname"></label> </label>
-                                    <input type="text" class="form-control" id="input" name"lastname" placeholder="Joseph">
-                            </div>
-                            <div class="form-group">
-                                    <label for="emeil"> </label>
-                                    <input type="email" class="form-control" id="input" name"email" placeholder="james.joseph@gmail.com">
-                            </div>
-                            <div class="form-group">
-                                    <label for="phoneno"> </label>
-                                    <input type="text" class="form-control" id="input" name"phoneno" placeholder="+2348032454323">
-                            </div>
-                            <div class="form-group">
-                                    <label for="dob"> </label>
-                                    <input type="date" class="form-control" id="input" name"dob">
-                             </div>
-                             <div class="form-group">
-                                    <label for="school"></label>
-                                    <input type="text" class="form-control" id="input" name"school" placeholder="Albright">
-                            </div>
-                        </form>
+                    <form method="POST">
+                        <fieldset>
+                            <legend>Personal Information</legend>
+                                <div class="form-group">
+                                        <label for="firstname"></label>
+                                        <input type="text" class="form-control" id="input" name"firstname" placeholder="James">
+                                    </div>
+                                    <div class="form-group">
+                                            <label for="lastname"></label> </label>
+                                            <input type="text" class="form-control" id="input" name"lastname" placeholder="Joseph">
+                                    </div>
+                                    <div class="form-group">
+                                            <label for="emeil"> </label>
+                                            <input type="email" class="form-control" id="input" name"email" placeholder="james.joseph@gmail.com">
+                                    </div>
+                                    <div class="form-group">
+                                            <label for="phoneno"> </label>
+                                            <input type="text" class="form-control" id="input" name"phoneno" placeholder="+2348032454323">
+                                    </div>
+                                    <div class="form-group">
+                                            <label for="dob"> </label>
+                                            <input type="date" class="form-control" id="input" name"dob">
+                                     </div>
+                                     <div class="form-group">
+                                            <label for="school"></label>
+                                            <select class= "form control" id="input">
+                                                <option>Choose a School</option>
+                                                <option>Albright International</option>
+                                                <option>Victory Academy</option>
+                                                <option>Comprehensive College</option>
+                                                <option>Petra Academy</option>
+                                            </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="button" class="btn btn-success">SEND</button>
+                                    </div>
+
+                        </fieldset>
+                            
+                    </form>
             </center>
             
         </div>
